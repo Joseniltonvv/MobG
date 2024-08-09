@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.2;
     background-color: black;
 }
 
@@ -52,7 +52,7 @@ main {
 
 .hero-image {
     width: 380px;
-    height: 450px;
+    height: 435px;
     display: block;
     position: relative;
     background-size: cover;
