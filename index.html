@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Agenda de Shows da Banda</title>
+</head>
+<body>
+    <header>
+        <h1>MOB G</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="agenda.html">Music</a></li>
+                <li><a href="contato.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <img src="imagem/inicio3.jpeg" alt="Banda XYZ" class="hero-image">
+            <div class="hero-content">
+                <h2>Bem-vindo ao site oficial da MOB G</h2>
+                <p>Faça seu agendamento!</p>
+                <center> <a href="https://wa.me/61993997481"> <img src="imagem/botao.jpeg" style="max-width: 95px; max-height: 95px;"> </a> </center>
+                        </div>
+        </section>
+        <!-- Áudio para reprodução automática -->
+        <audio id="background-music" autoplay loop>
+            <source src="AUDIO/musica.mp3" type="audio/mpeg">
+            Seu navegador não suporta a reprodução de áudio.
+        </audio>
+    </main>
+    <footer>
+        <p>&copy; 2024 Banda MOB G</p>
+    </footer>
+    <script>
+        // Ajustar o volume ao carregar a página
+        window.onload = function() {
+            var audio = document.getElementById('background-music');
+            audio.volume = 0.2; // Volume entre 0.0 e 1.0
+        };
+    </script>
+</body>
+</html>
