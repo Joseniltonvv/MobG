@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11"/>
+	<title>Agendar Avaliação &#8211; Clínica Odontológica Dra. Sandra Brandão</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//widgets.wp.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//0.gravatar.com' />
+<link rel='dns-prefetch' href='//1.gravatar.com' />
+<link rel='dns-prefetch' href='//2.gravatar.com' />
+<link rel='dns-prefetch' href='//i0.wp.com' />
+<link rel='dns-prefetch' href='//c0.wp.com' />
+<link rel="alternate" type="application/rss+xml" title="Feed para Clínica Odontológica Dra. Sandra Brandão &raquo;" href="https://www.clinicasandrabrandao.com.br/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Clínica Odontológica Dra. Sandra Brandão &raquo;" href="https://www.clinicasandrabrandao.com.br/comments/feed/" />
+		<!-- This site uses the Google Analytics by ExactMetrics plugin v8.0.0 - Using Analytics tracking - https://www.exactmetrics.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=G-RG136M5XR8"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var em_version = '8.0.0';
+				var em_track_user = true;
+				var em_no_track_reason = '';
+								var ExactMetricsDefaultLocations = {"page_location":"https:\/\/www.clinicasandrabrandao.com.br\/agendar-avaliacao\/"};
+				if ( typeof ExactMetricsPrivacyGuardFilter === 'function' ) {
+					var ExactMetricsLocations = (typeof ExactMetricsExcludeQuery === 'object') ? ExactMetricsPrivacyGuardFilter( ExactMetricsExcludeQuery ) : ExactMetricsPrivacyGuardFilter( ExactMetricsDefaultLocations );
+				} else {
+					var ExactMetricsLocations = (typeof ExactMetricsExcludeQuery === 'object') ? ExactMetricsExcludeQuery : ExactMetricsDefaultLocations;
+				}
+
+								var disableStrs = [
+										'ga-disable-G-RG136M5XR8',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.ExactMetricsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (em_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = exactmetrics_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof ExactMetricsDualTracker.trackers[hookName] !== 'undefined') {
+								ExactMetricsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dNDMyYj': true,
+											});
+					if ( ExactMetricsLocations.page_location ) {
+						__gtagTracker('set', ExactMetricsLocations);
+					}
+										__gtagTracker('config', 'G-RG136M5XR8', {"forceSSL":"true","anonymize_ip":"true"} );
+															window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+									'referrer' : 'page_referrer',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by ExactMetrics -->
+		<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.clinicasandrabrandao.com.br\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel='stylesheet' id='formidable-css' href='https://www.clinicasandrabrandao.com.br/wp-content/plugins/formidable/css/formidableforms.css?ver=7302145' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://c0.wp.com/c/6.6.1/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css' href='https://c0.wp.com/c/6.6.1/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css' href='https://c0.wp.com/c/6.6.1/wp-includes/js/mediaelement/wp-mediaelement.min.css' type='text/css' media='all' />
+<style id='jetpack-sharing-buttons-style-inline-css' type='text/css'>
+.jetpack-sharing-buttons__services-list{display:flex;flex-direction:row;flex-wrap:wrap;gap:0;list-style-type:none;margin:5px;padding:0}.jetpack-sharing-buttons__services-list.has-small-icon-size{font-size:12px}.jetpack-sharing-buttons__services-list.has-normal-icon-size{font-size:16px}.jetpack-sharing-buttons__services-list.has-large-icon-size{font-size:24px}.jetpack-sharing-buttons__services-list.has-huge-icon-size{font-size:36px}@media print{.jetpack-sharing-buttons__services-list{display:none!important}}.editor-styles-wrapper .wp-block-jetpack-sharing-buttons{gap:0;padding-inline-start:0}ul.jetpack-sharing-buttons__services-list.has-background{padding:1.25em 2.375em}
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='foobox-free-min-css' href='https://www.clinicasandrabrandao.com.br/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.32' type='text/css' media='all' />
+<link rel='stylesheet' id='foogallery-core-css' href='https://www.clinicasandrabrandao.com.br/wp-content/plugins/foogallery/extensions/default-templates/shared/css/foogallery.min.css?ver=2.4.16' type='text/css' media='all' />
+<link rel='stylesheet' id='accelerate_style-css' href='https://www.clinicasandrabrandao.com.br/wp-content/themes/accelerate-pro/style.css?ver=6.6.1' type='text/css' media='all' />
+<style id='accelerate_style-inline-css' type='text/css'>
+.byline { clip: rect(1px, 1px, 1px, 1px); height: 1px; position: absolute; overflow: hidden; width: 1px; }
+</style>
+<link rel='stylesheet' id='accelerate_googlefonts-css' href='//fonts.googleapis.com/css?family=Roboto+Slab%3A700%2C400%7CRoboto%3A400%2C300%2C100&#038;ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='accelerate-fontawesome-css' href='https://www.clinicasandrabrandao.com.br/wp-content/themes/accelerate-pro/fontawesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css' href='https://c0.wp.com/p/jetpack/13.7/css/jetpack.css' type='text/css' media='all' />
+<script type="text/javascript" src="https://www.clinicasandrabrandao.com.br/wp-content/plugins/google-analytics-dashboard-for-wp/assets/js/frontend-gtag.min.js?ver=8.0.0" id="exactmetrics-frontend-script-js"></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='exactmetrics-frontend-script-js-extra'>/* <![CDATA[ */
+var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"zip,mp3,mpeg,pdf,docx,pptx,xlsx,rar","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/www.clinicasandrabrandao.com.br","hash_tracking":"false","v4_id":"G-RG136M5XR8"};/* ]]> */
+</script>
+<script type="text/javascript" src="https://c0.wp.com/c/6.6.1/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://c0.wp.com/c/6.6.1/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<!--[if lte IE 8]>
+<script type="text/javascript" src="https://www.clinicasandrabrandao.com.br/wp-content/themes/accelerate-pro/js/html5shiv.js?ver=3.7.3" id="html5shiv-js"></script>
+<![endif]-->
+<script type="text/javascript" id="foobox-free-min-js-before">
+/* <![CDATA[ */
+/* Run FooBox FREE (v2.7.32) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, fitToScreen:true, captions: { dataTitle: ["captionTitle","title"], dataDesc: ["captionDesc","description"] }, rel: '', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }, error: "Could not load the item"},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.clinicasandrabrandao.com.br/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.32" id="foobox-free-min-js"></script>
+<link rel="https://api.w.org/" href="https://www.clinicasandrabrandao.com.br/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.clinicasandrabrandao.com.br/wp-json/wp/v2/pages/31" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.clinicasandrabrandao.com.br/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.6.1" />
+<link rel="canonical" href="https://www.clinicasandrabrandao.com.br/agendar-avaliacao/" />
+<link rel='shortlink' href='https://wp.me/P9x0VN-v' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.clinicasandrabrandao.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.clinicasandrabrandao.com.br%2Fagendar-avaliacao%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.clinicasandrabrandao.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.clinicasandrabrandao.com.br%2Fagendar-avaliacao%2F&#038;format=xml" />
+	<style>img#wpstats{display:none}</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #478fc5; background-image: url("https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/dark_blue_colour_background-1.png"); background-position: center top; background-size: contain; background-repeat: no-repeat; background-attachment: fixed; }
+</style>
+	
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Agendar Avaliação" />
+<meta property="og:url" content="https://www.clinicasandrabrandao.com.br/agendar-avaliacao/" />
+<meta property="og:description" content="Você sabia que a primeira consulta é a mais importante de todas as consultas do seu tratamento? Isso mesmo! É na Consulta de Avaliação que o dentista vai entender quais são as suas necessidades e e…" />
+<meta property="article:published_time" content="2016-03-03T00:22:36+00:00" />
+<meta property="article:modified_time" content="2023-06-09T21:13:46+00:00" />
+<meta property="og:site_name" content="Clínica Odontológica Dra. Sandra Brandão" />
+<meta property="og:image" content="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2023/06/botao-whatsapp-contato.png" />
+<meta property="og:image:width" content="600" />
+<meta property="og:image:height" content="205" />
+<meta property="og:image:alt" content="Clique aqui para falar no Whatsapp com o nosso Agendamento!" />
+<meta property="og:locale" content="pt_BR" />
+<meta name="twitter:text:title" content="Agendar Avaliação" />
+<meta name="twitter:image" content="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2023/06/botao-whatsapp-contato.png?w=640" />
+<meta name="twitter:image:alt" content="Clique aqui para falar no Whatsapp com o nosso Agendamento!" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="icon" href="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/cropped-icone_site_new-e1555507312655.png?fit=32%2C32&#038;ssl=1" sizes="32x32" />
+<link rel="icon" href="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/cropped-icone_site_new-e1555507312655.png?fit=192%2C192&#038;ssl=1" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/cropped-icone_site_new-e1555507312655.png?fit=180%2C180&#038;ssl=1" />
+<meta name="msapplication-TileImage" content="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/cropped-icone_site_new-e1555507312655.png?fit=270%2C270&#038;ssl=1" />
+		<style type="text/css"> .accelerate-button,blockquote,button,input[type=button],input[type=reset],input[type=submit]{background-color:#1a3369}#site-title a:hover,.next a:hover,.previous a:hover,a{color:#1a3369}#search-form span,.main-navigation a:hover,.main-navigation ul li ul li a:hover,.main-navigation ul li ul li:hover>a,.main-navigation ul li.current-menu-ancestor a,.main-navigation ul li.current-menu-item a,.main-navigation ul li.current-menu-item ul li a:hover,.main-navigation ul li.current_page_ancestor a,.main-navigation ul li.current_page_item a,.main-navigation ul li:hover>a,.main-small-navigation li:hover > a,.main-navigation ul ul.sub-menu li.current-menu-ancestor> a,.main-navigation ul li.current-menu-ancestor li.current_page_item> a{background-color:#1a3369}.site-header .menu-toggle:before{color:#1a3369}.main-small-navigation li a:hover,.widget_team_block .more-link{background-color:#1a3369}.main-small-navigation .current-menu-item a,.main-small-navigation .current_page_item a,.team-title::b {background:#1a3369}.footer-menu a:hover,.footer-menu ul li.current-menu-ancestor a,.footer-menu ul li.current-menu-item a,.footer-menu ul li.current_page_ancestor a,.footer-menu ul li.current_page_item a,.footer-menu ul li:hover>a,.widget_team_block .team-title:hover>a{color:#1a3369}a.slide-prev,a.slide-next,.slider-title-head .entry-title a{background-color:#1a3369}#controllers a.active,#controllers a:hover,.widget_team_block .team-social-icon a:hover{background-color:#1a3369;color:#1a3369}.format-link .entry-content a{background-color:#1a3369}.tg-one-fourth .widget-title a:hover,.tg-one-half .widget-title a:hover,.tg-one-third .widget-title a:hover,.widget_featured_posts .tg-one-half .entry-title a:hover,.widget_image_service_block .entry-title a:hover,.widget_service_block i.fa,.widget_fun_facts .counter-icon i{color:#1a3369}#content .wp-pagenavi .current,#content .wp-pagenavi a:hover,.pagination span{background-color:#1a3369}.pagination a span:hover{color:#1a3369;border-color:#1a3369}#content .comments-area a.comment-edit-link:hover,#content .comments-area a.comment-permalink:hover,#content .comments-area article header cite a:hover,.comments-area .comment-author-link a:hover,.widget_testimonial .testimonial-icon:before,.widget_testimonial i.fa-quote-left{color:#1a3369}#wp-calendar #today,.comment .comment-reply-link:hover,.nav-next a:hover,.nav-previous a:hover{color:#1a3369}.widget-title span{border-bottom:2px solid #1a3369}#secondary h3 span:before,.footer-widgets-area h3 span:before{color:#1a3369}#secondary .accelerate_tagcloud_widget a:hover,.footer-widgets-area .accelerate_tagcloud_widget a:hover{background-color:#1a3369}.footer-socket-wrapper .copyright a:hover,.footer-widgets-area a:hover{color:#1a3369}a#scroll-up{background-color:#1a3369}.entry-meta .byline i,.entry-meta .cat-links i,.entry-meta a,.post .entry-title a:hover{color:#1a3369}.entry-meta .post-format i{background-color:#1a3369}.entry-meta .comments-link a:hover,.entry-meta .edit-link a:hover,.entry-meta .posted-on a:hover,.entry-meta .tag-links a:hover{color:#1a3369}.more-link span,.read-more{background-color:#1a3369}.single #content .tags a:hover{color:#1a3369}#page{border-top:3px solid #1a3369}.nav-menu li a:hover,.top-menu-toggle:before{color:#1a3369}.footer-socket-wrapper{border-top: 3px solid #1a3369;}.comments-area .comment-author-link span,{background-color:#1a3369}@media screen and (max-width: 767px){.better-responsive-menu .sub-toggle{background-color:#000137}}.woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit, .woocommerce #content input.button, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button,main-navigation li.menu-item-has-children:hover, .main-small-navigation .current_page_item > a, .main-small-navigation .current-menu-item > a { background-color: #1a3369; } @media(max-width: 1024px) and (min-width: 768px){
+			.main-navigation li.menu-item-has-children:hover,.main-navigation li.current_page_item{background:#1a3369;}}.widget_our_clients .clients-cycle-prev, .widget_our_clients .clients-cycle-next{background-color:#1a3369}.counter-block-wrapper.fact-style-3 .counter-inner-wrapper{background: #1a3369}.team-title::before{background:#1a3369} .main-navigation, .main-navigation ul li ul li a, .main-navigation ul li.current-menu-item ul li a, .main-navigation ul li ul li.current-menu-item a, .main-navigation ul li.current_page_ancestor ul li a,
+.main-navigation ul li.current-menu-ancestor ul li a, .main-navigation ul li.current_page_item ul li a,
+.main-navigation .menu-toggle, .main-small-navigation .menu-toggle, .main-small-navigation ul li ul li a, .main-small-navigation ul li.current-menu-item ul li a, .main-small-navigation ul li ul li.current-menu-item a, .main-small-navigation ul li.current_page_ancestor ul li a, .main-small-navigation li { background-color: #f3e6d1; } #header-meta { background-color: #1a3369; } .footer-widgets-area, .footer-widgets-area p { color: #f3f3f3; } .footer-widgets-wrapper { background-color: #1a3369; }#colophon { background-position: center center; }#colophon { background-size: auto; }#colophon { background-attachment: scroll; }#colophon { background-repeat: repeat; }.page-header { background-position: center center; }.page-header { background-size: auto; }.page-header { background-attachment: scroll; }.page-header { background-repeat: repeat; }</style>
+		</head>
+
+<body data-rsssl=1 class="page-template-default page page-id-31 custom-background wp-custom-logo  better-responsive-menu wide author-hidden">
+
+
+
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+		<header id="masthead" class="site-header clearfix">
+
+					<div id="header-meta" class="clearfix">
+				<div class="inner-wrap">
+					
+		<div class="social-links clearfix">
+			<ul>
+				<li><a href="https://www.facebook.com/clinicasandrabrandao/"target="_blank"><i class="fa fa-facebook"></i></a></li><li><a href="https://twitter.com/DrSandraBrandao"target="_blank"><i class="fa fa-twitter"></i></a></li><li><a href="https://www.instagram.com/clinicasandrabrandao/"target="_blank"><i class="fa fa-instagram"></i></a></li><li><a href="https://www.youtube.com/user/clinicasandrabrandao/"target="_blank"><i class="fa fa-youtube"></i></a></li>			</ul>
+		</div><!-- .social-links -->
+							<nav id="top-site-navigation" class="small-menu" class="clearfix">
+						<h3 class="top-menu-toggle"></h3>
+						<div class="nav-menu clearfix">
+							<div class="menu-menu-cabecalho-container"><ul id="menu-menu-cabecalho" class="menu"><li id="menu-item-860" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-860"><a href="https://api.whatsapp.com/send?phone=5588999150915&#038;text=Olá!%20Gostaria%20de%20Agendar%20Uma%20Avaliação">WhatsApp: (88) 9 9915-0915 e (88) 9 9242-3206</a></li>
+<li id="menu-item-870" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-870"><a href="#">Atendimento: Seg à Sex de 08:00 às 18:00 e Sáb de 08:00 às 12:00</a></li>
+<li id="menu-item-880" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-880"><a href="https://www.clinicasandrabrandao.com.br/blog/">Blog Saúde</a></li>
+</ul></div>						</div><!-- .nav-menu -->
+					</nav>
+				</div>
+			</div>
+		
+		<div id="header-text-nav-container" class="clearfix">
+
+			
+			<div class="inner-wrap">
+
+				<div id="header-text-nav-wrap" class="clearfix">
+					<div id="header-left-section">
+													<div id="header-logo-image">
+								<a href="https://www.clinicasandrabrandao.com.br/" class="custom-logo-link" rel="home"><img width="647" height="112" src="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/csb_logo_site_new.png?fit=647%2C112&amp;ssl=1" class="custom-logo" alt="Clínica Odontológica Dra. Sandra Brandão" decoding="async" fetchpriority="high" srcset="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/csb_logo_site_new.png?w=647&amp;ssl=1 647w, https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/csb_logo_site_new.png?resize=300%2C52&amp;ssl=1 300w" sizes="(max-width: 647px) 100vw, 647px" data-attachment-id="818" data-permalink="https://www.clinicasandrabrandao.com.br/csb_logo_site_new/" data-orig-file="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/csb_logo_site_new.png?fit=647%2C112&amp;ssl=1" data-orig-size="647,112" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="csb_logo_site_new" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/csb_logo_site_new.png?fit=300%2C52&amp;ssl=1" data-large-file="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/csb_logo_site_new.png?fit=647%2C112&amp;ssl=1" tabindex="0" role="button" /></a>							</div><!-- #header-logo-image -->
+													<div id="header-text" class="screen-reader-text">
+															<h3 id="site-title">
+									<a href="https://www.clinicasandrabrandao.com.br/" title="Clínica Odontológica Dra. Sandra Brandão" rel="home">Clínica Odontológica Dra. Sandra Brandão</a>
+								</h3>
+															<p id="site-description">O seu Sorriso é a nossa maior Paixão!</p>
+													</div><!-- #header-text -->
+					</div><!-- #header-left-section -->
+					<div id="header-right-section">
+													<div id="header-right-sidebar" class="clearfix">
+								<aside id="search-2" class="widget widget_search"><form action="https://www.clinicasandrabrandao.com.br/"id="search-form" class="searchform clearfix" method="get">
+	<input type="text" placeholder="Search" class="s field" name="s">
+	<input type="submit" value="Search" id="search-submit" name="submit" class="submit">
+</form><!-- .searchform --></aside>							</div>
+												</div><!-- #header-right-section -->
+
+				</div><!-- #header-text-nav-wrap -->
+
+			</div><!-- .inner-wrap -->
+
+			
+							
+				<nav id="site-navigation" class="main-navigation clearfix" role="navigation">
+					<h3 class="menu-toggle">Menu</h3>
+					<div class="menu-primary-container inner-wrap"><ul id="menu-menu-principal" class="menu"><li id="menu-item-569" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-569"><a href="https://www.clinicasandrabrandao.com.br/">Início</a></li>
+<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-31 current_page_item menu-item-33"><a href="https://www.clinicasandrabrandao.com.br/agendar-avaliacao/" aria-current="page">Agende a sua Consulta!</a></li>
+<li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="https://www.clinicasandrabrandao.com.br/a-clinica/">Conheça a Clínica</a></li>
+<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="https://www.clinicasandrabrandao.com.br/localizacao/">Localização</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://www.clinicasandrabrandao.com.br/estrutura/">Nossa Estrutura</a></li>
+<li id="menu-item-184" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-184"><a href="#">Nossos Serviços</a>
+<ul class="sub-menu">
+	<li id="menu-item-331" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"><a href="https://www.clinicasandrabrandao.com.br/ortodontia-com-aparelhos-autoligados-e-esteticos/">Aparelhos Ortodônticos</a></li>
+	<li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61"><a href="https://www.clinicasandrabrandao.com.br/implantes-dentarios/">Implantes Dentários</a></li>
+	<li id="menu-item-56" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56"><a href="https://www.clinicasandrabrandao.com.br/restauracoes-esteticas/">Odontologia Estética</a></li>
+	<li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59"><a href="https://www.clinicasandrabrandao.com.br/clareamento-dental/">Clareamento Dental</a></li>
+	<li id="menu-item-58" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58"><a href="https://www.clinicasandrabrandao.com.br/lentes-de-contato/">Lentes de Contato</a></li>
+	<li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a href="https://www.clinicasandrabrandao.com.br/facetas-de-porcelana/">Facetas de Porcelana</a></li>
+	<li id="menu-item-702" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-702"><a href="https://www.clinicasandrabrandao.com.br/harmonizacao-orofacial/">Harmonização Orofacial</a></li>
+	<li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="https://www.clinicasandrabrandao.com.br/tratamento-de-canal/">Tratamento de Canal</a></li>
+	<li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="https://www.clinicasandrabrandao.com.br/cirurgia-oral-menor/">Cirurgia Oral Menor</a></li>
+	<li id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55"><a href="https://www.clinicasandrabrandao.com.br/proteses-dentarias/">Próteses Dentárias</a></li>
+	<li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a href="https://www.clinicasandrabrandao.com.br/prevencao-bucal/">Prevenção Bucal</a></li>
+</ul>
+</li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://www.clinicasandrabrandao.com.br/profissionais/">Profissionais</a></li>
+</ul></div>				</nav>
+					</div><!-- #header-text-nav-container -->
+
+		
+		
+	</header>
+		
+	
+	<div id="main" class="clearfix">
+		<div class="inner-wrap clearfix">
+
+	
+	<div id="primary">
+		<div id="content" class="clearfix">
+			
+				
+<article id="post-31" class="post-31 page type-page status-publish hentry  tg-column-two">
+	
+			<figure class="post-featured-image">
+					</figure>
+	
+			<header class="entry-header">
+			<h1 class="entry-title">Agendar Avaliação</h1>		</header>
+	
+	<div class="entry-content clearfix">
+		<p><a href="https://api.whatsapp.com/send?phone=5588999150915&amp;text=Ol%C3%A1!%20Gostaria%20de%20Agendar%20Uma%20Avalia%C3%A7%C3%A3o"><img decoding="async" data-attachment-id="2506" data-permalink="https://www.clinicasandrabrandao.com.br/agendar-avaliacao/botao-whatsapp-contato-2/" data-orig-file="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2023/06/botao-whatsapp-contato.png?fit=600%2C205&amp;ssl=1" data-orig-size="600,205" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="botao-whatsapp-contato" data-image-description="&lt;p&gt;Clique aqui para falar no Whatsapp com o nosso Agendamento!&lt;/p&gt;
+" data-image-caption="&lt;p&gt;Clique aqui para falar no Whatsapp com o nosso Agendamento!&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2023/06/botao-whatsapp-contato.png?fit=300%2C103&amp;ssl=1" data-large-file="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2023/06/botao-whatsapp-contato.png?fit=600%2C205&amp;ssl=1" tabindex="0" role="button" class="size-full wp-image-2506 aligncenter" src="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2023/06/botao-whatsapp-contato.png?resize=600%2C205&#038;ssl=1" alt="Clique aqui para falar no Whatsapp com o nosso Agendamento!" width="600" height="205" srcset="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2023/06/botao-whatsapp-contato.png?w=600&amp;ssl=1 600w, https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2023/06/botao-whatsapp-contato.png?resize=300%2C103&amp;ssl=1 300w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></a></p>
+<hr />
+<h4>Você sabia que <strong>a primeira consulta é a mais importante de todas as consultas do seu tratamento?</strong></h4>
+<p><img decoding="async" data-attachment-id="758" data-permalink="https://www.clinicasandrabrandao.com.br/agendar-avaliacao/consulta/" data-orig-file="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2016/03/consulta.jpg?fit=2200%2C1467&amp;ssl=1" data-orig-size="2200,1467" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Consulta Inicial" data-image-description="&lt;p&gt;Consulta Inicial&lt;/p&gt;
+" data-image-caption="" data-medium-file="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2016/03/consulta.jpg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2016/03/consulta.jpg?fit=720%2C480&amp;ssl=1" tabindex="0" role="button" class="aligncenter  wp-image-758" src="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2016/03/consulta-1024x683.jpg?resize=564%2C376" alt="Consulta Inicial" width="564" height="376" srcset="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2016/03/consulta.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2016/03/consulta.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2016/03/consulta.jpg?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2016/03/consulta.jpg?w=1440&amp;ssl=1 1440w, https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2016/03/consulta.jpg?w=2160&amp;ssl=1 2160w" sizes="(max-width: 564px) 100vw, 564px" data-recalc-dims="1" /></p>
+<p style="text-align: justify;">Isso mesmo! É na Consulta de Avaliação que o dentista vai entender quais são as suas necessidades e elaborar o Plano de Tratamento mais adequado para você.</p>
+<p style="text-align: justify;">Funciona da seguinte forma:</p>
+<ol style="text-align: justify;">
+<li><strong>Anamnese:</strong> É um questionário que você preenche antes de ser atendido pelo dentista, informando qual é a sua queixa e outras informações sobre a sua saúde bucal e geral. Com essas informações, o Dentista guiará a consulta de avaliação e seu tratamento da forma correta.<br /> </li>
+<li><strong>Quais são as suas Necessidades e Desejos:</strong> Em seguida, o Dentista conversará com você para entender as suas necessidades e desejos e como eles devem ser atendidos com o tratamento odontológico que será proposto. <br /><br /></li>
+<li><strong>Dicas sobre Higiene Bucal:</strong> O Dentista vai entender os seus hábitos de higiene bucal e vai lhe dar diversas dicas e informações que vão lhe ajudar a não ter mais doenças bucais como a cárie, gengivite e mau hálito. As informações que o Dentista vai te passar valem ouro. Anote tudo!<br /> </li>
+<li><strong>Exame Clínico e Exames Complementares:</strong> Em seguida será realizado o Exame Clínico. Você deve informar tudo o que você está sentindo para que o Dentista não deixe nada de fora do Plano de Tratamento. Se necessário,  serão solicitados exames complementares como Radiografias, Exames de Sangue e até mesmo uma Documentação Ortodôntica.<br /> </li>
+<li><strong>Elaboração e Explicação do Plano de Tratamento:</strong> Ao final do exame clínico, o Dentista vai elaborar o Plano de Tratamento e explicará quais serão os procedimentos que você precisa fazer e estimará o número de consultas necessárias para executar todo o Plano de Tratamento. Lembre-se de que é uma estimativa, pois a Odontologia não é uma ciência exata.<br /> </li>
+<li><strong>Esclarecer suas Dúvidas:</strong> Após toda a explicação do Dentista, você poderá sanar todas as suas dúvidas. Aproveite para perguntar o que você quiser, certo?</li>
+</ol>
+<p style="text-align: justify;">E para fazer tudo isso corretamente e com qualidade, é necessário de 30 a 45 minutos de atendimento. <strong>Em respeito a você, as nossas avaliações são detalhadas e minuciosas.</strong></p>
+<hr />
+<p style="text-align: center;"><strong>&#8220;Dar uma Olhadinha&#8221; e &#8220;Olhar Rapidinho&#8221; <span style="color: #ff0000;">NÃO É</span> algo que nós fazemos.</strong></p>
+<hr />
+<p style="text-align: justify;">Desde já agradecemos por nos escolher para cuidar da sua saúde bucal.</p>
+<p style="text-align: justify;">Estamos preparados para assumir essa grande responsabilidade e ficaremos muito felizes em levar <strong>Qualidade de Vida</strong> para você.</p>
+<h4 style="text-align: left;">Entre em Contato</h4>
+<p><style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:5<span style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" data-mce-type="bookmark" class="mce_SELRES_start">﻿</span>px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+</style></p>
+<table class="tg" style="height: 370px;" width="500">
+<tbody>
+<tr>
+<td class="tg-cly1"><a href="tel:88999150915"><img decoding="async" class="alignleft" src="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2016/03/telefone_icone.png?w=720&#038;ssl=1" alt="telefone contato agendar avaliação" data-recalc-dims="1" /></a></td>
+<td class="tg-cly1"><a href="tel:88999150915">(88) 99915-0915 (TIM)</a> <a href="tel:88992423206">(88) 99242-3206 (Claro)</a></td>
+</tr>
+<tr>
+<td class="tg-cly1"><a href="https://api.whatsapp.com/send?phone=5588999150915&amp;text=Ol%C3%A1!%20Gostaria%20de%20Agendar%20Uma%20Avalia%C3%A7%C3%A3o"><img decoding="async" class="alignleft" src="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2016/03/whatsapp_icone-e1642039623274.png?resize=100%2C100&#038;ssl=1" alt="whatsapp contato agendar avaliação" width="100" height="100" data-recalc-dims="1" /></a></td>
+<td class="tg-cly1"><a href="https://api.whatsapp.com/send?phone=5588999150915&amp;text=Ol%C3%A1!%20Gostaria%20de%20Agendar%20Uma%20Avalia%C3%A7%C3%A3o">(88) 99915-0915</a></td>
+</tr>
+<tr>
+<td class="tg-cly1"><a href="mailto:contato@clinicasandrabrandao.com.br?subject=Quero Marcar uma Consulta&amp;body=Desejo Marcar uma Consulta para avaliação!"><img loading="lazy" decoding="async" class="alignleft" src="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2016/03/email_icone.png?resize=100%2C100&#038;ssl=1" alt="email contato agendar avaliação" width="100" height="100" data-recalc-dims="1" /></a></td>
+<td class="tg-cly1"><a href="mailto:contato@clinicasandrabrandao.com.br?subject=Quero Marcar uma Consulta&amp;body=Desejo Marcar uma Consulta para avaliação!">contato@clinicasandrabrandao.com.br</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+<p>Ou preencha o <strong>formulário</strong> a seguir para que possamos entrar em contato com você.</p>
+<p><br /><div class="frm_forms  with_frm_style frm_style_formidable-style" id="frm_form_3_container" >
+<form enctype="multipart/form-data" method="post" class="frm-show-form " id="form_avaliacao"  >
+<div class="frm_form_fields ">
+<fieldset>
+<legend class="frm_hidden">Agende uma Avaliação</legend>
+
+<div class="frm_fields_container">
+<input type="hidden" name="frm_action" value="create" />
+<input type="hidden" name="form_id" value="3" />
+<input type="hidden" name="frm_hide_fields_3" id="frm_hide_fields_3" value="" />
+<input type="hidden" name="form_key" value="avaliacao" />
+<input type="hidden" name="item_meta[0]" value="" />
+<input type="hidden" id="frm_submit_entry_3" name="frm_submit_entry_3" value="565d200a46" /><input type="hidden" name="_wp_http_referer" value="/agendar-avaliacao/" /><div id="frm_field_8_container" class="frm_form_field form-field  frm_required_field frm_top_container frm_full frm_fullfrm_full">
+    <label for="field_qh4icy2" class="frm_primary_label">Nome Completo
+        <span class="frm_required">*</span>
+    </label>
+    <input type="text" id="field_qh4icy2" name="item_meta[8]" value=""  data-reqmsg="Esse campo não pode ser em branco." aria-required="true" data-invmsg="Nome Completo é inválido" aria-invalid="false"  />
+    
+    
+</div>
+<div id="frm_field_10_container" class="frm_form_field form-field  frm_required_field frm_top_container frm_full">
+    <label for="field_29yf4d2" class="frm_primary_label">Melhor E-Mail
+        <span class="frm_required">*</span>
+    </label>
+    <input type="email" id="field_29yf4d2" name="item_meta[10]" value=""  data-reqmsg="Esse campo não pode ser em branco." aria-required="true" data-invmsg="Please enter a valid email address" aria-invalid="false"  />
+    
+    
+</div>
+<div id="frm_field_15_container" class="frm_form_field form-field  frm_required_field frm_top_container">
+    <label for="field_4b2mr" class="frm_primary_label">Melhor Telefone
+        <span class="frm_required">*</span>
+    </label>
+    <input type="text" id="field_4b2mr" name="item_meta[15]" value=""  data-reqmsg="Esse campo não pode ser em branco." aria-required="true" data-invmsg="Melhor Telefone é inválido" aria-invalid="false"   aria-describedby="frm_desc_field_4b2mr"/>
+    <div id="frm_desc_field_4b2mr" class="frm_description">(Não esqueça de colocar o DDD)</div>
+    
+</div>
+<div id="frm_field_13_container" class="frm_form_field form-field  frm_required_field frm_top_container frm_full">
+    <label for="field_9jv0r12" class="frm_primary_label">Motivo da Avaliação, Melhor Data e Horário para Agendá-la
+        <span class="frm_required">*</span>
+    </label>
+    <textarea name="item_meta[13]" id="field_9jv0r12" rows="5"  data-reqmsg="Esse campo não pode ser em branco." aria-required="true" data-invmsg="Motivo da Avaliação, Melhor Data e Horário para Agendá-la é inválido" aria-invalid="false"   aria-describedby="frm_desc_field_9jv0r12"></textarea>
+    <div id="frm_desc_field_9jv0r12" class="frm_description">Ex: Desejo fazer uma avaliação para melhorar o meu sorriso, pois não estou satisfeito com ele. O melhor dia da semana é terça-feira, sempre pela manhã.</div>
+    
+</div>
+<div id="frm_field_14_container" class="frm_form_field form-field  frm_none_container">
+    <label for="g-recaptcha-response" class="frm_primary_label">Captcha
+        <span class="frm_required"></span>
+    </label>
+    <div  id="field_62n6q32" class="frm-g-recaptcha" data-sitekey="6LdRPRoTAAAAAJXVJXe9UEd-lZ04qE8fV9TLzeZ0" data-size="normal" data-theme="light"></div>
+    
+    
+</div>
+	<input type="hidden" name="item_key" value="" />
+	<div class="frm_submit">
+
+<input type="submit" value="Enviar"  />
+<img decoding="async" class="frm_ajax_loading" src="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/plugins/formidable/images/ajax_loader.gif?w=720&#038;ssl=1" alt="Sending" data-recalc-dims="1"/>
+
+</div></div>
+</fieldset>
+</div>
+<p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="245"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>
+</div>
+</p>
+			</div>
+
+	</article>
+
+				
+			
+		</div><!-- #content -->
+	</div><!-- #primary -->
+	
+	
+<div id="secondary">
+			
+		<aside id="widget_contact_info-2" class="widget widget_contact_info"><h3 class="widget-title"><span>Horário e informações</span></h3><div itemscope itemtype="http://schema.org/LocalBusiness"><div class="confit-address" itemscope itemtype="http://schema.org/PostalAddress" itemprop="address"><a href="https://maps.google.com/maps?z=16&#038;q=rua%2B%C3%8Dndio%2Bjac%C3%B3%2C%2B231%2Bbairro%3A%2Bcentro%2Bcep%3A%2B62.370-000%2Bs%C3%A3o%2Bbenedito%2B%E2%80%93%2Bce" target="_blank" rel="noopener noreferrer"><br/>Rua Índio Jacó, 231<br/>Bairro: Centro<br/>CEP: 62.370-000<br/>São Benedito – CE<br/><br/></a></div><div class="confit-phone"><span itemprop="telephone">Telefones: (88) 9 9915-0915 e (88) 9 9242-3206</span></div><div class="confit-email"><a href="mailto:contato@clinicasandrabrandao.com.br">contato@clinicasandrabrandao.com.br</a></div><div class="confit-hours" itemprop="openingHours"> <br/>Horário de Funcionamento:<br/><br/>Segunda a Sexta de 08:00 às 18:00<br/>Sábados de 08:00 às 12:00</div></div></aside>	</div>
+	
+
+</div><!-- .inner-wrap -->
+</div><!-- #main -->
+<footer id="colophon" class="clearfix">
+	
+<div class="footer-widgets-wrapper">
+	<div class="inner-wrap">
+		<div class="footer-widgets-area  clearfix">
+																					
+					<div class="tg-one-third">
+						<aside id="text-4" class="widget widget_text">			<div class="textwidget"><table style="width: 100%; border: 0px;">
+<tbody>
+<tr>
+<td style="border-color: #1a3369; width: 50%; vertical-align: top;" colspan="2"><img loading="lazy" decoding="async" class="alignleft wp-image-221" src="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/csb_logo_dente.png?resize=115%2C88" alt="csb_logo_dente" width="115" height="88" data-recalc-dims="1" /><strong>EPAO:<br />
+</strong>CRO-CE 605</p>
+<p><strong style="font-family: inherit; font-size: inherit;">Responsável Técnico:<br />
+</strong>CRO-CE 3.548</td>
+</tr>
+<tr>
+<td style="border-color: #1a3369;" colspan="2"></td>
+</tr>
+<tr>
+<td style="border-color: #1a3369; width: 40%; vertical-align: top;"><strong>Endereço:</strong></p>
+<p>Rua Índio Jacó, 231<br />
+Bairro: Centro<br />
+CEP: 62.370-000<br />
+São Benedito &#8211; CE</td>
+<td style="border-color: #1a3369; width: 60%; vertical-align: top;"><strong>Telefones: <img loading="lazy" decoding="async" class="alignnone size-full wp-image-247" src="https://i0.wp.com/www.clinicasandrabrandao.com.br/wp-content/uploads/2016/03/whatsapp_icone_mini.png?resize=16%2C16" alt="whatsapp ícone" width="16" height="16" data-recalc-dims="1" /></strong></p>
+<p>(88) 9 9915-0915 (TIM)<br />
+(88) 9 9242-3206 (Claro)</td>
+</tr>
+<tr>
+<td style="border-color: #1a3369; vertical-align: top;" colspan="2"><strong>Horário de Funcionamento:</strong></p>
+<p>Segunda a Sexta de 08:00 às 18:00<br />
+Sábados de 08:00 às 12:00</td>
+</tr>
+</tbody>
+</table>
+</div>
+		</aside>					</div>
+
+											<div class="tg-one-third tg-column-2">
+							<aside id="nav_menu-2" class="widget widget_nav_menu"><div class="menu-rodape-vertical-container"><ul id="menu-rodape-vertical" class="menu"><li id="menu-item-217" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-217"><a href="https://www.clinicasandrabrandao.com.br/a-clinica/">Conheça a Clínica</a></li>
+<li id="menu-item-216" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-31 current_page_item menu-item-216"><a href="https://www.clinicasandrabrandao.com.br/agendar-avaliacao/" aria-current="page">Agendar Avaliação</a></li>
+<li id="menu-item-711" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-711"><a href="https://www.clinicasandrabrandao.com.br/anestesia-sem-agulha/">Anestesia sem Agulha</a></li>
+<li id="menu-item-212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-212"><a href="https://www.clinicasandrabrandao.com.br/ortodontia-com-aparelhos-autoligados-e-esteticos/">Aparelhos Ortodônticos</a></li>
+<li id="menu-item-710" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-710"><a href="https://www.clinicasandrabrandao.com.br/harmonizacao-orofacial/">Harmonização Orofacial</a></li>
+<li id="menu-item-213" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-213"><a href="https://www.clinicasandrabrandao.com.br/lentes-de-contato/">Lentes de Contato</a></li>
+<li id="menu-item-218" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-218"><a href="https://www.clinicasandrabrandao.com.br/restauracoes-esteticas/">Odontologia Estética</a></li>
+<li id="menu-item-214" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-214"><a href="https://www.clinicasandrabrandao.com.br/clareamento-dental/">Clareamento Dental</a></li>
+<li id="menu-item-220" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220"><a href="https://www.clinicasandrabrandao.com.br/tratamento-de-canal/">Tratamento de Canal</a></li>
+<li id="menu-item-219" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-219"><a href="https://www.clinicasandrabrandao.com.br/implantes-dentarios/">Implantes Dentários</a></li>
+<li id="menu-item-249" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-249"><a href="https://www.clinicasandrabrandao.com.br/cirurgia-oral-menor/">Cirurgia Oral Menor</a></li>
+<li id="menu-item-215" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-215"><a href="https://www.clinicasandrabrandao.com.br/prevencao-bucal/">Prevenção Bucal</a></li>
+</ul></div></aside>						</div>
+					
+											<div class="tg-one-third tg-after-two-blocks-clearfix">
+							<aside id="foogallery_widget-2" class="widget foogallery_widget"><h3 class="widget-title"><span>Galeria de Fotos</span></h3><div class="foogallery foogallery-container foogallery-thumbnail foogallery-single-thumbnail foogallery-lightbox-foobox fg-left fg-thumbnail fg-light fg-border-thin fg-round-small fg-shadow-outline fg-loading-partial fg-loaded-fade-in fg-caption-hover fg-hover-fade fg-hover-zoom fg-ready" id="foogallery-gallery-965" data-foogallery="{&quot;item&quot;:{&quot;showCaptionTitle&quot;:true,&quot;showCaptionDescription&quot;:true},&quot;lazy&quot;:true}" >
+    <div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/fachada.jpg" data-attachment-id="989" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/fachada/1401052866.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/fachada/2487866059.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/fachada/2217630987.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/fachada/3041499297.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div>    <div class="fg-st-hidden">
+    <div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/2019-04-18-12.47.17-1.jpg" data-attachment-id="995" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_47_17-1/276828531.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_47_17-1/1792518127.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_47_17-1/2074367643.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_47_17-1/4195430111.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/2019-04-18-12.41.36.jpg" data-attachment-id="992" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_41_36/24596350.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_41_36/903222043.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_41_36/3365490141.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_41_36/2110765074.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/2019-04-18-12.41.21.jpg" data-attachment-id="991" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_41_21/353059944.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_41_21/564795405.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_41_21/3706013387.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_41_21/1773384452.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/DSC_3651.jpg" data-attachment-id="994" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3651/3361133695.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3651/2177551668.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3651/1208395392.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3651/2701561454.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/2019-04-18-12.42.53.jpg" data-attachment-id="970" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_42_53/1753156325.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_42_53/1558075008.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_42_53/2710636614.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_42_53/348650889.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/2019-04-18-12.43.12-1.jpg" data-attachment-id="974" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_43_12-1/3109940788.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_43_12-1/3272235176.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_43_12-1/3531188700.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_43_12-1/1405931928.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/2019-04-18-12.44.02.jpg" data-attachment-id="973" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_44_02/255169339.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_44_02/999608158.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_44_02/3336278424.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_44_02/1938646103.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/DSC_3627.jpg" data-attachment-id="984" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3627/2679913652.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3627/3592431103.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3627/535580235.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3627/4142687909.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/DSC_3630.jpg" data-attachment-id="986" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3630/2413986561.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3630/3330185802.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3630/263385598.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3630/3870480656.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/DSC_3629-1.jpg" data-attachment-id="990" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3629-1/1619668991.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3629-1/392976493.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3629-1/1302676173.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3629-1/3102596437.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/DSC_3644.jpg" data-attachment-id="988" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3644/1315605695.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3644/133600756.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3644/3459972672.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3644/658167470.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/DSC_3647.jpg" data-attachment-id="996" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3647/346188628.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3647/1564373535.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3647/2498894251.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3647/2113024325.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/DSC_3648.jpg" data-attachment-id="997" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3648/650816431.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3648/1867952868.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3648/2795166032.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3648/1335554494.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/DSC_3633.jpg" data-attachment-id="987" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3633/3928315573.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3633/2746830846.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3633/1786061898.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3633/2205486244.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/2019-04-18-12.51.57-1.jpg" data-attachment-id="975" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_51_57-1/1963562681.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_51_57-1/257826853.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_51_57-1/506319185.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_51_57-1/2677582101.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/DSC_3636.jpg" data-attachment-id="977" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3636/3288959141.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3636/2375389678.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3636/1146747482.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3636/2908345012.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/DSC_3639.jpg" data-attachment-id="978" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3639/3619824851.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3639/2656976280.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3639/1469208108.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3639/3197271746.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/DSC_3625-1.jpg" data-attachment-id="998" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3625-1/1219249135.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3625-1/1061827709.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3625-1/1703096029.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3625-1/2429268293.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/2019-04-18-13.02.18.jpg" data-attachment-id="982" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-13_02_18/389968729.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-13_02_18/597634876.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-13_02_18/3738202618.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-13_02_18/1803977781.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/DSC_3620.jpg" data-attachment-id="979" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3620/884931052.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3620/2099437735.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3620/3035532051.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3620/1575920637.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/DSC_3622.jpg" data-attachment-id="980" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3622/3432871694.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3622/2231463493.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3622/1288504817.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/DSC_3622/2781687071.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/2019-04-18-12.56.08.jpg" data-attachment-id="983" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_56_08/77696261.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_56_08/805359968.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_56_08/3444543398.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_56_08/2014935657.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/2019-04-18-12.56.33.jpg" data-attachment-id="966" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_56_33/155441793.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_56_33/1038255844.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_56_33/3232618530.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_56_33/1979395565.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/2019-04-18-12.56.55.jpg" data-attachment-id="968" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_56_55/594405899.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_56_55/399292014.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_56_55/3934513320.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_56_55/1607802215.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/2019-04-18-12.56.48.jpg" data-attachment-id="967" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_56_48/2178524389.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_56_48/3044604032.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_56_48/1211606598.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_56_48/4251014025.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div><div class="fg-item fg-type-image fg-idle"><figure class="fg-item-inner"><a href="https://www.clinicasandrabrandao.com.br/wp-content/uploads/2019/04/2019-04-18-12.57.04.jpg" data-attachment-id="969" rel="lightbox[965]" data-type="image" class="fg-thumb"><span class="fg-image-wrap"><img width="250" height="200" class="skip-lazy fg-image" data-src-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_57_04/3578757089.jpg" data-srcset-fg="https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_57_04/3790480260.jpg 2x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_57_04/480345410.jpg 3x,https://www.clinicasandrabrandao.com.br/wp-content/uploads/cache/2019/04/2019-04-18-12_57_04/2851571853.jpg 4x" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22200%22%20viewBox%3D%220%200%20250%20200%22%3E%3C%2Fsvg%3E" loading="eager"></span><span class="fg-image-overlay"></span></a><figcaption class="fg-caption"><div class="fg-caption-inner"></div></figcaption></figure><div class="fg-loader"></div></div>    </div>
+</div>
+</aside>						</div>
+					
+					
+																																																																	</div>
+	</div>
+</div>
+
+	<div class="footer-socket-wrapper clearfix ">
+		<div class="inner-wrap">
+			<div class="footer-socket-area">
+				<div class="copyright"><p>Copyright © 2024 <a href="https://www.clinicasandrabrandao.com.br/" title="Clínica Odontológica Dra. Sandra Brandão" ><span>Clínica Odontológica Dra. Sandra Brandão</span></a> </p></div>				<nav class="footer-menu" class="clearfix">
+					<div class="menu-menu-do-rodape-horizontal-container"><ul id="menu-menu-do-rodape-horizontal" class="menu"><li id="menu-item-317" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-317"><a href="https://www.clinicasandrabrandao.com.br/">Página Inicial</a></li>
+<li id="menu-item-586" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-586"><a href="https://www.clinicasandrabrandao.com.br/mapa-do-site/">Mapa do Site</a></li>
+<li id="menu-item-455" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-31 current_page_item menu-item-455"><a href="https://www.clinicasandrabrandao.com.br/agendar-avaliacao/" aria-current="page">Entre em Contato Conosco</a></li>
+<li id="menu-item-319" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-319"><a href="https://www.clinicasandrabrandao.com.br/blog/">Blog</a></li>
+<li id="menu-item-322" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-322"><a href="https://www.clinicasandrabrandao.com.br/desenvolvimento/">Desenvolvimento e Manutenção</a></li>
+</ul></div>				</nav>
+			</div>
+		</div>
+	</div>
+</footer>
+<a href="#masthead" id="scroll-up"><i class="fa fa-long-arrow-up"></i></a>
+</div><!-- #page -->
+
+			<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js#xfbml=1&version=v6.0&autoLogAppEvents=1'
+			fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+			<div class="fb-customerchat" attribution="wordpress" attribution_version="2.3" page_id="1422723817964372"></div>
+
+					<div id="jp-carousel-loading-overlay">
+			<div id="jp-carousel-loading-wrapper">
+				<span id="jp-carousel-library-loading">&nbsp;</span>
+			</div>
+		</div>
+		<div class="jp-carousel-overlay" style="display: none;">
+
+		<div class="jp-carousel-container">
+			<!-- The Carousel Swiper -->
+			<div
+				class="jp-carousel-wrap swiper-container jp-carousel-swiper-container jp-carousel-transitions"
+				itemscope
+				itemtype="https://schema.org/ImageGallery">
+				<div class="jp-carousel swiper-wrapper"></div>
+				<div class="jp-swiper-button-prev swiper-button-prev">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskPrev" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="9" height="12">
+							<path d="M16.2072 16.59L11.6496 12L16.2072 7.41L14.8041 6L8.8335 12L14.8041 18L16.2072 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskPrev)">
+							<rect x="0.579102" width="23.8823" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+				<div class="jp-swiper-button-next swiper-button-next">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskNext" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="8" height="12">
+							<path d="M8.59814 16.59L13.1557 12L8.59814 7.41L10.0012 6L15.9718 12L10.0012 18L8.59814 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskNext)">
+							<rect x="0.34375" width="23.8822" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+			</div>
+			<!-- The main close buton -->
+			<div class="jp-carousel-close-hint">
+				<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<mask id="maskClose" mask-type="alpha" maskUnits="userSpaceOnUse" x="5" y="5" width="15" height="14">
+						<path d="M19.3166 6.41L17.9135 5L12.3509 10.59L6.78834 5L5.38525 6.41L10.9478 12L5.38525 17.59L6.78834 19L12.3509 13.41L17.9135 19L19.3166 17.59L13.754 12L19.3166 6.41Z" fill="white"/>
+					</mask>
+					<g mask="url(#maskClose)">
+						<rect x="0.409668" width="23.8823" height="24" fill="#FFFFFF"/>
+					</g>
+				</svg>
+			</div>
+			<!-- Image info, comments and meta -->
+			<div class="jp-carousel-info">
+				<div class="jp-carousel-info-footer">
+					<div class="jp-carousel-pagination-container">
+						<div class="jp-swiper-pagination swiper-pagination"></div>
+						<div class="jp-carousel-pagination"></div>
+					</div>
+					<div class="jp-carousel-photo-title-container">
+						<h2 class="jp-carousel-photo-caption"></h2>
+					</div>
+					<div class="jp-carousel-photo-icons-container">
+						<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-info" aria-label="Alternar visibilidade de metadados de imagem">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskInfo" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M12.7537 2C7.26076 2 2.80273 6.48 2.80273 12C2.80273 17.52 7.26076 22 12.7537 22C18.2466 22 22.7046 17.52 22.7046 12C22.7046 6.48 18.2466 2 12.7537 2ZM11.7586 7V9H13.7488V7H11.7586ZM11.7586 11V17H13.7488V11H11.7586ZM4.79292 12C4.79292 16.41 8.36531 20 12.7537 20C17.142 20 20.7144 16.41 20.7144 12C20.7144 7.59 17.142 4 12.7537 4C8.36531 4 4.79292 7.59 4.79292 12Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskInfo)">
+										<rect x="0.8125" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+							</span>
+						</a>
+												<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-comments" aria-label="Alternar visibilidade de comentários em imagem">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskComments" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M4.3271 2H20.2486C21.3432 2 22.2388 2.9 22.2388 4V16C22.2388 17.1 21.3432 18 20.2486 18H6.31729L2.33691 22V4C2.33691 2.9 3.2325 2 4.3271 2ZM6.31729 16H20.2486V4H4.3271V18L6.31729 16Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskComments)">
+										<rect x="0.34668" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+
+								<span class="jp-carousel-has-comments-indicator" aria-label="Esta imagem contém comentários."></span>
+							</span>
+						</a>
+											</div>
+				</div>
+				<div class="jp-carousel-info-extra">
+					<div class="jp-carousel-info-content-wrapper">
+						<div class="jp-carousel-photo-title-container">
+							<h2 class="jp-carousel-photo-title"></h2>
+						</div>
+						<div class="jp-carousel-comments-wrapper">
+															<div id="jp-carousel-comments-loading">
+									<span>Carregando comentários...</span>
+								</div>
+								<div class="jp-carousel-comments"></div>
+								<div id="jp-carousel-comment-form-container">
+									<span id="jp-carousel-comment-form-spinner">&nbsp;</span>
+									<div id="jp-carousel-comment-post-results"></div>
+																														<div id="jp-carousel-comment-form-commenting-as">
+												<p id="jp-carousel-commenting-as">
+													Você precisa <a href="#" class="jp-carousel-comment-login">fazer login</a> para comentar.												</p>
+											</div>
+																											</div>
+													</div>
+						<div class="jp-carousel-image-meta">
+							<div class="jp-carousel-title-and-caption">
+								<div class="jp-carousel-photo-info">
+									<h3 class="jp-carousel-caption" itemprop="caption description"></h3>
+								</div>
+
+								<div class="jp-carousel-photo-description"></div>
+							</div>
+							<ul class="jp-carousel-image-exif" style="display: none;"></ul>
+							<a class="jp-carousel-image-download" href="#" target="_blank" style="display: none;">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="19" height="18">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M5.84615 5V19H19.7775V12H21.7677V19C21.7677 20.1 20.8721 21 19.7775 21H5.84615C4.74159 21 3.85596 20.1 3.85596 19V5C3.85596 3.9 4.74159 3 5.84615 3H12.8118V5H5.84615ZM14.802 5V3H21.7677V10H19.7775V6.41L9.99569 16.24L8.59261 14.83L18.3744 5H14.802Z" fill="white"/>
+									</mask>
+									<g mask="url(#mask0)">
+										<rect x="0.870605" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+								<span class="jp-carousel-download-text"></span>
+							</a>
+							<div class="jp-carousel-image-map" style="display: none;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</div>
+		<script type="text/javascript" src="https://www.clinicasandrabrandao.com.br/wp-content/themes/accelerate-pro/js/jquery.sticky.min.js?ver=6.6.1" id="jquery-sticky-js"></script>
+<script type="text/javascript" src="https://www.clinicasandrabrandao.com.br/wp-content/themes/accelerate-pro/js/waypoints.min.js?ver=2.0.3" id="waypoints-js"></script>
+<script type="text/javascript" src="https://www.clinicasandrabrandao.com.br/wp-content/themes/accelerate-pro/js/jquery.counterup.min.js?ver=6.6.1" id="counterup-js"></script>
+<script type="text/javascript" src="https://www.clinicasandrabrandao.com.br/wp-content/themes/accelerate-pro/js/navigation.min.js?ver=6.6.1" id="accelerate-navigation-js"></script>
+<script type="text/javascript" src="https://www.clinicasandrabrandao.com.br/wp-content/themes/accelerate-pro/js/skip-link-focus-fix.js?ver=6.6.1" id="accelerate-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="https://www.clinicasandrabrandao.com.br/wp-content/themes/accelerate-pro/js/accelerate-custom.min.js?ver=6.6.1" id="accelerate-custom-js"></script>
+<script type="text/javascript" src="https://www.clinicasandrabrandao.com.br/wp-content/themes/accelerate-pro/js/theia-sticky-sidebar/theia-sticky-sidebar.min.js?ver=1.7.0" id="theia-sticky-sidebar-js"></script>
+<script type="text/javascript" src="https://www.clinicasandrabrandao.com.br/wp-content/themes/accelerate-pro/js/theia-sticky-sidebar/ResizeSensor.min.js?ver=6.6.1" id="ResizeSensor-js"></script>
+<script type="text/javascript" src="https://stats.wp.com/e-202432.js" id="jetpack-stats-js" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="jetpack-stats-js-after">
+/* <![CDATA[ */
+_stq = window._stq || [];
+_stq.push([ "view", JSON.parse("{\"v\":\"ext\",\"blog\":\"140855431\",\"post\":\"31\",\"tz\":\"-3\",\"srv\":\"www.clinicasandrabrandao.com.br\",\"j\":\"1:13.7\"}") ]);
+_stq.push([ "clickTrackerInit", "140855431", "31" ]);
+/* ]]> */
+</script>
+<script type="text/javascript" id="jetpack-carousel-js-extra">
+/* <![CDATA[ */
+var jetpackSwiperLibraryPath = {"url":"https:\/\/www.clinicasandrabrandao.com.br\/wp-content\/plugins\/jetpack\/_inc\/build\/carousel\/swiper-bundle.min.js"};
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"pt","ajaxurl":"https:\/\/www.clinicasandrabrandao.com.br\/wp-admin\/admin-ajax.php","nonce":"62f5b6e8c9","display_exif":"1","display_comments":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Coment\u00e1rio","post_comment":"Publicar coment\u00e1rio","write_comment":"Escreva um Coment\u00e1rio","loading_comments":"Carregando coment\u00e1rios...","download_original":"Visualizar tamanho original <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Certifique-se de enviar algum texto com o seu coment\u00e1rio.","no_comment_email":"Informe um endere\u00e7o de e-mail para comentar.","no_comment_author":"Forne\u00e7a seu nome para comentar.","comment_post_error":"Desculpe, mas ocorreu um erro ao postar seu coment\u00e1rio. Tente novamente mais tarde.","comment_approved":"Seu coment\u00e1rio foi aprovado.","comment_unapproved":"Seu coment\u00e1rio est\u00e1 aguardando modera\u00e7\u00e3o.","camera":"C\u00e2mera","aperture":"Abertura","shutter_speed":"Velocidade do Obturador","focal_length":"Comprimento Focal","copyright":"Direito autoral","comment_registration":"1","require_name_email":"1","login_url":"https:\/\/www.clinicasandrabrandao.com.br\/entrar?redirect_to=https%3A%2F%2Fwww.clinicasandrabrandao.com.br%2Fagendar-avaliacao%2F","blog_id":"1","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"]};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://c0.wp.com/p/jetpack/13.7/_inc/build/carousel/jetpack-carousel.min.js" id="jetpack-carousel-js"></script>
+<script type="text/javascript" id="formidable-js-extra">
+/* <![CDATA[ */
+var frm_js = {"ajax_url":"https:\/\/www.clinicasandrabrandao.com.br\/wp-admin\/admin-ajax.php","images_url":"https:\/\/www.clinicasandrabrandao.com.br\/wp-content\/plugins\/formidable\/images","loading":"Carrengando\u2026","remove":"Remover","offset":"4","nonce":"90e01f5965","id":"ID","no_results":"Nenhum resultado corresponde","file_spam":"Esse arquivo parece com spam.","calc_error":"H\u00e1 um erro no c\u00e1lculo no campo com chave","empty_fields":"Preencha os campos obrigat\u00f3rios anteriores antes de fazer o upload de um arquivo.","focus_first_error":"1","include_alert_role":"1","include_resend_email":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.clinicasandrabrandao.com.br/wp-content/plugins/formidable/js/frm.min.js?ver=6.11.2" id="formidable-js"></script>
+<script type="text/javascript" defer="defer" async="async" src="https://www.google.com/recaptcha/api.js?onload=frmRecaptcha&amp;render=explicit&amp;hl=pt-BR&amp;ver=3" id="captcha-api-js"></script>
+<script defer type="text/javascript" src="https://www.clinicasandrabrandao.com.br/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1720690205" id="akismet-frontend-js"></script>
+<script type="text/javascript" src="https://www.clinicasandrabrandao.com.br/wp-content/plugins/foogallery/extensions/default-templates/shared/js/foogallery.min.js?ver=2.4.16" id="foogallery-core-js"></script>
+<script type="text/javascript" key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50IjoiNjFkZjgwZjdlYzAyMzAwMDFiZjQ5MzMwIiwiaWF0IjoxNjQyMDM3NjY4fQ.UoHEOGeyxJTz0k27yHfLtao-Kse6EDNVGglMDlvBWOQ"  src="https://www.consensu.io/bundle.min.js" id="consensu-js"></script>
+</body>
+</html>
