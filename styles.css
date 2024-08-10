@@ -10,7 +10,7 @@ body {
 
 /* Header com navegação */
 header {
-    background-color: #44b7d6;
+    background-color: #2fa4d2;
     color: #fff;
     padding: 0px 0;
     text-align: center;
@@ -123,7 +123,7 @@ button:hover {
 
 /* Footer */
 footer {
-    background-color: #44b7d6;
+    background-color: #2fa4d2;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -166,13 +166,13 @@ footer {
 }
 
 .audio-control button {
-    background-color: #fff;
+    background-color: #2fa4d2;
     color: #333;
     border: 2px solid #333;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 0px;
     
 }
 
