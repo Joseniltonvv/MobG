@@ -1,20 +1,19 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const shows = [
-        { date: '2024-09-15', location: 'São Paulo, SP', venue: 'Estádio XYZ' },
-        { date: '2024-10-20', location: 'Rio de Janeiro, RJ', venue: 'Maracanã' },
-        { date: '2024-11-10', location: 'Belo Horizonte, MG', venue: 'Mineirão' },
-    ];
+document.getElementById('bookingForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Pedido de show enviado com sucesso! Entraremos em contato em breve.');
+    this.reset();
+});
 
-    const showsList = document.getElementById('shows');
-    shows.forEach(show => {
-        const li = document.createElement('li');
-        li.textContent = `${show.date} - ${show.location} - ${show.venue}`;
-        showsList.appendChild(li);
-    });
+// Controle de música
+const backgroundMusic = document.getElementById('backgroundMusic');
+const playPauseBtn = document.getElementById('playPauseBtn');
 
-    const contactForm = document.getElementById('contactForm');
-    contactForm.addEventListener('submit', function(event) {
-        event.preventDefault();
-        alert('Mensagem enviada com sucesso!');
-    });
+playPauseBtn.addEventListener('click', function() {
+    if (backgroundMusic.paused) {
+        backgroundMusic.play();
+        playPauseBtn.textContent = 'Pausar Música';
+    } else {
+        backgroundMusic.pause();
+        playPauseBtn.textContent = 'Reproduzir Música';
+    }
 });

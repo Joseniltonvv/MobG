@@ -3,61 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Show - Banda XYZ</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="script.js">
-
-    <title>Agenda de Shows da Banda</title>
 </head>
 <body>
     <header>
-        <h1>MOB G</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="agenda.html">Plataformas</a></li>
-                <li><a href="contato.html">Sobre</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="hero">
-            <div class="hero-image-container">
-           <img src="imagem/inicio3.jpeg" width="365px" height="400"  class="hero-image">  
-             <center>=  <div class="hero-content">
-                    <h2>Bem-vindo a <br> MOB G</h2>
-                    <p>Faça seu agendamento aqui!</p> 
-                    <center> <a href="https://wa.me/61993997481"> <img src="imagem/b4.png" style="max-width: 115px; max-height: 100px;"> </a> </center>
-                </div> </center> 
-            </div>
-        </section>
       
-    </main>
-    <footer>
-        <p>&copy; 2024 Mob G</p>
+    </header>
+
+    <section id="home" class="hero" style="background-image: url('imagem/p.jpeg');"> 
+ 
+    </section>
+
+    <section id="about" class="about">
+        <h2>Conheça a MOBG</h2>
+        <img src="imagem/inicio2.jpg" alt="Foto da Banda XYZ">
+        <p>
+          <h3>  A MOBG é conhecida por suas apresentações energéticas e cativantes. Com muita paixão pela música, 
+            ela se destaca com o trap gospel, oferecendo shows com muita agitação e adoração a Deus através do TRAP GOSPEL. </h3>
+
+            <center> <a href="https://wa.me/61992192854"> <img src="imagem/b4.png" style="max-width: 250px; max-height: 120px;"> </a> </center>
+        </p>
+    </section>
+
+    <section id="booking" class="booking">
+     
+        <form id="bookingForm">
+           <!-- Controle de áudio -->
+ <div class="audio-control">
+    <audio id="backgroundMusic" src="Audio/musict.mp3" autoplay loop></audio>
+   
+</div>       
+
+        </form>
+    </section>
+
+    <footer id="contact">
+        <p>&copy; 2024 Mob G. Todos os direitos reservados.</p>
+        
     </footer>
 
-    <audio id="background-music" src="Audio/musict.mp3"></audio>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var audio = document.getElementById('background-music');
-            audio.volume = 0.2; // Ajusta o volume
-            audio.play().catch(function(error) {
-                console.log('Reprodução automática bloqueada, tentando desbloquear:', error);
-                // Exibe um botão para o usuário clicar e iniciar o áudio
-                var playButton = document.createElement('button');
-                playButton.textContent = 'Reproduzir Música';
-                playButton.style.position = 'absolute';
-                playButton.style.top = '20px';
-                playButton.style.right = '20px';
-                document.body.appendChild(playButton);
-
-                playButton.addEventListener('click', function() {
-                    audio.play();
-                    playButton.remove(); // Remove o botão após o clique
-                });
-            });
-        });
-
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
