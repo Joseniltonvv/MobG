@@ -166,9 +166,9 @@ footer {
 }
 
 .audio-control button {
-    background-color: #2fa4d2;
-    color: #333;
-    border: 2px solid #333;
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #000000;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -189,5 +189,36 @@ footer {
 @keyframes blink {
     50% {
         opacity: 0;
+    }
+}
+
+/* Estilo do carrossel */
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #22b7e4;
+}
+
+.carousel-track {
+    display: flex;
+    animation: scroll 35s linear infinite;
+}
+
+.carousel img {
+    width: 300px;
+    max-width: 300px; /* Altere o tamanho conforme necessário */
+    height: 300px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+/* Animação para o carrossel */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
     }
 }
