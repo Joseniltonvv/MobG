@@ -3,57 +3,220 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MOB
-        G</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Transforme Suas Unhas e Cílios - Aprenda com Especialistas!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #e91e63;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .cta-button {
+            background-color: #00bfa5;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 15px;
+            display: inline-block;
+            margin: 20px 0;
+            font-size: 1.2em;
+            animation: pulse 1s infinite;
+            height: 30px;
+            
+        }
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: scale(1.05);
+                opacity: 0.9;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+        .cta-button:hover {
+            background-color: #0c0f0f;
+        }
+        section {
+            margin: 40px 0;
+            text-align: center;
+        }
+        h2 {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #000000;
+        }
+        .benefits {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        .benefit {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            text-align: center;
+            height: 300px;
+        }
+        .benefit img {
+            width: 350px;
+            height: 300px;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #e91e63;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        .testimonials {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+        }
+        .testimonial {
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        .price-section {
+            background-color: #ffb74d;
+            padding: 40px 0;
+            margin: 40px 0;
+            color: #fff;
+        }
+        .price-section h2 {
+            color: #fff;
+        }
+        .price {
+            font-size: 2.5em;
+            margin: 20px 0;
+        }
+        .video-container {
+            margin: 40px 0;
+            text-align: center;
+        }
+        .video-container iframe {
+            width: 100%;
+            max-width: 700px;
+            height: 400px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilos responsivos */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            .cta-button {
+                padding: 10px 20px;
+                font-size: 1em;
+            }
+            .benefits {
+                flex-direction: column;
+            }
+            .benefit {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .price {
+                font-size: 2em;
+            }
+            .video-container iframe {
+                height: 300px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+            .cta-button {
+                padding: 10px 15px;
+                font-size: 0.9em;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+            p {
+                font-size: 1em;
+            }
+            .price {
+                font-size: 1.8em;
+            }
+            .video-container iframe {
+                height: 200px;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
-      
-        <!-- Controle de áudio -->
- <div class="audio-control">
-    <audio id="backgroundMusic" src="Audio/musict.mp3" autoplay loop></audio>
-    <button id="playPauseBtn">||Pausar||</button>
+        <div class="container">
+            <h1>Transforme Suas Unhas e Cílios - Aprenda com Especialistas!</h1>
+            <p>Participe do nosso grupo exclusivo no WhatsApp e tenha acesso a conteúdos e dicas incríveis.</p>
+        </div>
     </header>
 
-    <div class="blink">
-    <section id="home" class="hero" style="background-image: url('imagem/p.jpeg');"> 
-    </div>
-    </section>
+    <div class="container">
+        <section class="video-container">
+            <h2>Veja Nosso Vídeo Exclusivo!</h2>
+            <iframe src="https://www.youtube.com/embed/SEU_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        </section>
+     <center>  <a href="https://wa.me/123456789" class="cta-button">Junte-se ao Grupo no WhatsApp</a></center> 
 
-    <section id="about" class="about">
-
-   
-</div>       
-        <h1>TRAP GOSPEL</h1>
-      
-     
-       <!-- Carrossel de Fotos -->
-       <div class="carousel">
-        <div class="carousel-track">
-            <img src="imagem/inicio2.jpg" alt="Foto 1 da Banda XYZ">
-            <img src="imagem/inicio2.jpg" alt="Foto 1 da Banda XYZ">        </div>
-        </div>
-   
-        <p>
-            
-            <center> <a href="https://wa.me/61993997481"> <img src="imagem/b4.png" style="max-width: 250px; max-height: 120px;"> </a> </center>
-        </p>
-    </section>
-
-    <section id="booking" class="booking">
-     
-        <form id="bookingForm">
+        <section>
           
+            <div class="benefits">
+                <div class="benefit">
+                    <img src="imagem/cilios.jpg" alt="Materiais Exclusivos">
+                </div>
+                <div class="benefit">
+                    <img src="imagem/img.jpg" alt="Dicas Profissionais">
+                </div>
+                <div class="benefit">
+                    <img src="imagem/unha.jpg" alt="Dicas Profissionais">
+                </div>
+            </div>
+        </section>
 
-        </form>
-    </section>
 
-    <footer id="contact">
-        <p>&copy; 2024 Mob G. Todos os direitos reservados.</p>
-        
-    </footer>
+        <section class="testimonials">
+            <h2>O Que Nossos Clientes Dizem</h2>
+            <p class="testimonial">"As dicas e materiais são incríveis! Minha carreira na área de unhas e cílios mudou completamente." - Ana Costa</p>
+            <p class="testimonial">"O grupo no WhatsApp foi a chave para eu entender e dar um passo profissionais. Valeu muito a pena!" - Julia Mendes</p>
+        </section>
+    </div>
 
-    <script src="script.js"></script>
-</body>
-</html>
+    <footer>
+        <p>&copy; 2024 Unhas e Cílios
