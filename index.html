@@ -312,22 +312,58 @@
             background-color: #1ebe5b;
         }
     
-        @media (min-width: 768px) {
-            .vantagem-content {
-                display: flex;
-                align-items: center;
-            }
-    
-            .vantagem h3 {
-                margin-bottom: 0;
-                flex: 1;
-            }
-    
-            .vantagem p {
-                flex: 3;
-                padding-left: 20px;
-            }
+        /* Responsividade */
+    @media (max-width: 768px) {
+        .container {
+            padding: 15px;
         }
+
+        #vantagens h2 {
+            font-size: 1.8em;
+        }
+
+        .vantagem {
+            margin: 15px 0;
+        }
+
+        .vantagem h3 {
+            font-size: 1.3em;
+        }
+
+        .vantagem p {
+            font-size: 1em;
+        }
+
+        .cta {
+            padding: 20px;
+        }
+
+        .cta p {
+            font-size: 1.1em;
+        }
+
+        .btn-whatsapp {
+            padding: 12px 25px;
+            font-size: 1.1em;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .vantagem-content {
+            display: flex;
+            align-items: center;
+        }
+
+        .vantagem h3 {
+            margin-bottom: 0;
+            flex: 1;
+        }
+
+        .vantagem p {
+            flex: 3;
+            padding-left: 20px;
+        }
+    }
     </style>
 </head>
 <body>
