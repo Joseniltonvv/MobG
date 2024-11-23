@@ -1,450 +1,431 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transforme Suas Unhas e Cílios!</title>
+    <title>Lopes Store</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f205fa;
-            color: #000000;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #ffffff;
         }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
+
         header {
-            background-color: #cd096b;
-            color: #fff;
-            padding: 40px 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        .cta-button {
-            background-color: #00a48f;
-            color: rgb(255, 255, 255);
-            padding: 15px 30px;
-            text-decoration: none;
-            border-radius: 15px;
-            display: inline-block;
-            margin: 20px 0;
-            font-size: 1.2em;
-            animation: pulse 1s infinite;
-            height: 30px;
-          
-           
-            
-        }
-        @keyframes pulse {
-            0% {
-                transform: scale(1);
-                opacity: 1;
-            }
-            50% {
-                transform: scale(1.05);
-                opacity: 0.9;
-            }
-            100% {
-                transform: scale(1);
-                opacity: 1;
-            }
-        }
-        .cta-button:hover {
-            background-color: #0c0f0f;
-        }
-        section {
-            margin: 40px 0;
-            text-align: center;
-        }
-        h2 {
-            color: #333;
-            font-size: 2em;
-            margin-bottom: 20px;
-        }
-        p {
-            font-size: 1.2em;
-            line-height: 1.6;
-            color: #000000;
-        }
-        .benefits {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 20px;
-            
-        }
-        .benefit {
             background-color: #000000;
-            width: 100%;
-            max-width: 700px;
-            height: 390px;
-            border-radius: 30px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 15px 20px;
+            display: flex;
             align-items: center;
-            
-        }
-        .benefit img {
-            width: 345px;
-            height: 380px;
-            margin-bottom: 15px;
-            align-items: center;
-            border-radius: 20px;
-        }
-        footer {
-            background-color: #e91e63;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-            margin-top: 40px;
-        }
-        .testimonials {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            margin-top: 30px;
-        }
-        .testimonial {
-            font-style: italic;
-            margin-bottom: 10px;
-        }
-        .price-section {
-            background-color: #ffb74d;
-            padding: 40px 0;
-            margin: 40px 0;
-            color: #fff;
-        }
-        .price-section h2 {
-            color: #fff;
-        }
-        .price {
-            font-size: 2.5em;
-            margin: 20px 0;
-        }
-        .video-container {
-            margin: 40px 0;
-            text-align: center;
-        }
-        .video-container iframe {
-            width: 100%;
-            max-width: 700px;
-            height: 400px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Estilos responsivos */
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 2em;
-            }
-            .cta-button {
-                padding: 10px 20px;
-                font-size: 1em;
-            }
-            .benefits {
-                flex-direction: column;
-            }
-            .benefit {
-                width: 100%;
-                margin-bottom: 20px;
-            }
-            .price {
-                font-size: 2em;
-            }
-            .video-container iframe {
-                height: 300px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            header h1 {
-                font-size: 1.5em;
-            }
-            .cta-button {
-                padding: 10px 15px;
-                font-size: 0.9em;
-            }
-            h2 {
-                font-size: 1.5em;
-            }
-            p {
-                font-size: 1em;
-            }
-            .price {
-                font-size: 1.8em;
-            }
-            .video-container iframe {
-                height: 200px;
-            }
-        }
-    </style>
-    <style>
-        #vantagens {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            line-height: 1.6;
-        }
-    
-        #vantagens h2 {
-            color: #d6336c;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-    
-        .vantagem h3 {
-            color: #d6336c;
-            font-size: 1.2em;
-        }
-    
-        .vantagem p {
-            margin-bottom: 15px;
-        }
-    
-        .cta {
-            text-align: center;
-            margin-top: 30px;
-        }
-    
-        .cta p {
-            font-size: 1.1em;
-        }
-    
-        .btn-whatsapp {
-            background-color: #25d366;
+            justify-content: space-between;
             color: white;
-            padding: 10px 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header img {
+            height: 100px;
+        }
+
+        header nav {
+            display: flex;
+            gap: 25px;
+        }
+
+        header nav a {
+            color: white;
             text-decoration: none;
             font-weight: bold;
+            padding: 10px 20px;
             border-radius: 5px;
+            transition: background-color 0.3s;
         }
-    
-        .btn-whatsapp:hover {
-            background-color: #1ebe5b;
+
+        header nav a:hover {
+            background-color: #2b8b42;
         }
-    </style>
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            background-color: #f9f9f9;
-        }
-    
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 30px 20px;
-            align-items: center;
-        }
-    
-        #vantagens {
+
+        .banner {
+            background: linear-gradient(to right, #37e15e, #050505);
+            color: white;
+            padding: 40px 20px;
             text-align: center;
         }
-    
-        #vantagens h2 {
-            color: #d6336c;
-            font-size: 2.5em;
-            margin-bottom: 40px;
+
+        .banner h2 {
+            font-size: 40px;
+            margin: 0;
         }
-    
-        .vantagem {
-            background: #1d1c1c;
-            border-radius: 50px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin: 20px 0;
+
+        .banner b {
+            font-size: 15px;
+            margin: 15px 0;
+            animation: piscar 1.5s infinite;
+        }
+
+        @keyframes piscar {
+            0%, 50%, 100% {
+                opacity: 1;
+            }
+            25%, 75% {
+                opacity: 0.5;
+            }
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 15px;
             padding: 20px;
-            transition: transform 0.3s ease-in-out;
+            max-width: 1200px;
+            margin: 10px auto;
+           align-items: center;
         }
-    
-        .vantagem:hover {
-            transform: translateY(-5px);
+
+        .product-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            height: 390px;
+            width: 140px;
+            
+        }
+
+        .product-card:hover {
+            transform: translateY(-3px);
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
         }
-    
-        .vantagem-content {
-            border-left: 5px solid #d6336c;
-            padding-left: 20px;
-            text-align: left;
+
+        .product-card img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+           height: 50%;
+           width: 250px;
         }
-    
-        .vantagem h3 {
-            color: #d6336c;
-            font-size: 1.5em;
+
+        .product-card h3 {
+            font-size: 14px;
+            margin: 8px 0;
+            color: #333;
+        }
+
+        .product-card p {
+            font-size: 12px;
+            color: #777;
             margin-bottom: 10px;
         }
-    
-        .vantagem p {
-            color: #ffffff;
-            font-size: 1.1em;
-            line-height: 1.8;
-        }
-    
-      
-    
-        .cta p {
-            font-size: 1.3em;
-        }
-    
-        .btn-whatsapp {
-            background-color: #25d366;
-            color: white;
-            padding: 15px 30px;
-            text-decoration: none;
+
+        .product-card .price {
+            font-size: 18px;
+            color: #FF5722;
             font-weight: bold;
-            border-radius: 50px;
-            font-size: 1.2em;
-            display: inline-block;
-            margin-top: 20px;
-        }
-    
-        .btn-whatsapp:hover {
-            background-color: #1ebe5b;
-        }
-    
-        /* Responsividade */
-    @media (max-width: 600px) {
-        .container {
-            padding: 15px;
+            margin-bottom: 10px;
         }
 
-        #vantagens h2 {
-            font-size: 1.8em;
+        .product-card .rating {
+            color: #FFD700;
+            font-size: 14px;
+            margin-bottom: 10px;
         }
 
-        .vantagem {
-            margin: 15px 0;
-        }
-
-        .vantagem h3 {
-            font-size: 1.3em;
-        }
-
-        .vantagem p {
-            font-size: 1em;
-        }
-
-        .cta {
-            padding: 20px;
-        }
-
-        .cta p {
-            font-size: 1.1em;
-        }
-
-        .btn-whatsapp {
-            padding: 12px 25px;
-            font-size: 1.1em;
-        }
-    }
-
-    @media (min-width: 600px) {
-        .vantagem-content {
+        .product-card .payment-icons {
             display: flex;
-            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
         }
 
-        .vantagem h3 {
-            margin-bottom: 0;
-            flex: 1;
+        .product-card .payment-icons img {
+            width: 25px;
         }
 
-        .vantagem p {
-            flex: 3;
-            padding-left: 20px;
+        .product-card button {
+            background-color: #34A853;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: background-color 0.3s;
         }
-    }
+
+        .product-card button:hover {
+            background-color: #2b8b42;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        /* Responsividade */
+        @media (max-width: 730px) {
+            header nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .banner h2 {
+                font-size: 32px;
+            }
+
+            .banner p {
+                font-size: 18px;
+            }
+
+            .product-card {
+                margin-bottom: 15px;
+            }
+
+            .products {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            }
+
+            .product-card h3 {
+                font-size: 13px;
+            }
+
+            .product-card p {
+                font-size: 11px;
+            }
+
+            .product-card .price {
+                font-size: 16px;
+            }
+
+            .product-card .rating {
+                font-size: 12px;
+            }
+
+            .product-card .payment-icons img {
+                width: 20px;
+            }
+
+            .product-card button {
+                padding: 8px 16px;
+            }
+        }
     </style>
 </head>
+
 <body>
+
     <header>
-        <div class="container">
-            <h1>Transforme Suas Unhas e Cílios - Aprenda e cresça seu proprio negócio!</h1>
-            <p>Participe do nosso grupo exclusivo no WhatsApp gratuitamente e tenha acesso a conteúdos e dicas incríveis.</p>
-        </div>
-    </header>
-
-    <div class="container">
-        <section class="video-container">
-            <h2>Veja Nosso Vídeo Exclusivo!</h2>
-            <iframe src="video/v.mp4" frameborder="0" allowfullscreen></iframe>
-        </section>
-    
-        <section id="vantagens">
+        <img src="imagem/logo1.jpeg" alt="Logo da Loja">
+        <nav>
            
-           
-            <div class="cta">
-                <p><strong>Quer saber mais e dar o primeiro passo para seu sucesso?</strong></p>
-                
-            </div>
-        </section>
-     <center>  <a href="https://chat.whatsapp.com/KqGGc5h1Caw04qly8p49Df" class="cta-button">Junte-se ao Grupo no WhatsApp</a></center> 
+            <a href="#">Loja Oficial</a>
+        </nav>
+    </header> <hr>
 
-        <section> <hr>
-
-            <section id="vantagens" class="container">
-                <h2>Vantagens de Empreender no Nicho de Unhas e Cílios</h2>
-            
-                <div class="vantagem">
-                    <div class="vantagem-content">
-                        <h3>1. Alta Demanda Constante</h3>
-                        <p>A beleza é uma prioridade para muitas pessoas, e o cuidado com unhas e cílios está em alta! Empreender nesse setor te coloca em um mercado que está sempre crescendo, garantindo uma clientela fiel e constante.</p>
-                    </div>
-                </div>
-            
-                <div class="vantagem">
-                    <div class="vantagem-content">
-                        <h3>2. Baixo Custo Inicial</h3>
-                        <p>Com investimentos acessíveis em produtos e ferramentas, é possível iniciar seu negócio sem grandes desembolsos. A partir de cursos rápidos e o uso de materiais de qualidade, você pode oferecer um serviço de alto valor agregado.</p>
-                    </div>
-                </div>
-            
-                <div class="vantagem">
-                    <div class="vantagem-content">
-                        <h3>3. Flexibilidade de Horários</h3>
-                        <p>Ao ser sua própria chefe, você tem a liberdade de organizar sua agenda de acordo com suas necessidades. Isso possibilita atender clientes em horários diferenciados e equilibrar melhor sua vida pessoal e profissional.</p>
-                    </div>
-                </div>
-            
-                <div class="vantagem">
-                    <div class="vantagem-content">
-                        <h3>4. Possibilidade de Expansão Rápida</h3>
-                        <p>O nicho de unhas e cílios permite a ampliação dos serviços, agregando técnicas novas, como alongamento de cílios, nail art e muito mais. Isso aumenta sua gama de ofertas e potencializa os ganhos.</p>
-                    </div>
-                </div>
-            
-                <div class="vantagem">
-                    <div class="vantagem-content">
-                        <h3>5. Alta Margem de Lucro</h3>
-                        <p>Com uma clientela bem estabelecida, os serviços de unhas e cílios geram ótimas margens de lucro. A personalização e o atendimento diferenciado fazem com que seus clientes valorizem ainda mais o trabalho, dispostos a pagar por um serviço de excelência.</p>
-                    </div>
-                </div>
-            </section>
-          <center>
-            <div class="benefits">
-                <div class="benefit">
-                    <img src="imagem/elite.jpeg" alt="Materiais Exclusivos">
-                </div>
-                <div class="benefit">
-                    <img src="imagem/img.jpg" alt="Dicas Profissionais">
-                </div>
-                <div class="benefit">
-                    <img src="imagem/unha.jpg" alt="Dicas Profissionais">
-                </div>
-            </div> </center>
-     
-
-
-        <section class="testimonials">
-            <h2>O Que Nossos Clientes Dizem</h2>
-            <p class="testimonial">"As dicas e materiais são incríveis! Minha carreira na área de unhas e cílios mudou completamente." - Ana Costa</p>
-            <p class="testimonial">"O grupo no WhatsApp foi a chave para eu entender e dar um passo profissionais. Valeu muito a pena!" - Julia Mendes</p>
-        </section>
+    <div class="banner">
+        <h2>Bem-Vindos à </h2>
+        <b>LOPES ELETRÔNICOS E ACESSÓRIOS!</b>
     </div>
+<hr>
+<center>   <div class="products">
+        <!-- Exemplo de Produto -->
+        <div class="product-card">
+            <img src="imagem/p1.jpeg" alt="Capinha de Silicone">
+            <h3>Power Bank</h3>
+            <p>Carregue seu celular de qualquer lugar.</p>
+            <div class="price">R$ 10,00</div>
+            <div class="rating">★★★★★</div>
+           
+            <button onclick="sendWhatsAppMessage('Capinha de Silicone')">Comprar via WhatsApp</button>
+        </div>
 
+        <div class="product-card">
+            <img src="imagem/p2.jpeg" alt="Capinha de Silicone">
+            <h3>Mouse com fio</h3>
+            <p>Resistente e com muita rapidez.</p>
+            <div class="price">R$ 10,00</div>
+            <div class="rating">★★★★★</div>
+           
+            <button onclick="sendWhatsAppMessage('Capinha de Silicone')">Comprar via WhatsApp</button>
+        </div>
+
+        <div class="product-card">
+            <img src="imagem/p3.jpeg" alt="Capinha de Silicone">
+            <h3>Capinha de Silicone</h3>
+            <p>Proteção leve e resistente para o seu celular.</p>
+            <div class="price">R$ 00,00</div>
+            <div class="rating">★★★★★</div>
+           
+            <button onclick="sendWhatsAppMessage('Capinha de Silicone')">Comprar via WhatsApp</button>
+        </div>
+
+        <div class="product-card">
+            <img src="imagem/p4.jpeg" alt="Capinha de Silicone">
+            <h3>Fone de ouvido</h3>
+            <p>Com Alta qualidade e sem ruidos.</p>
+            <div class="price">R$ 00,00</div>
+            <div class="rating">★★★★☆</div>
+           
+            <button onclick="sendWhatsAppMessage('Capinha de Silicone')">Comprar via WhatsApp</button>
+        </div>
+        <div class="product-card">
+            <img src="imagem/p5.jpeg" alt="Capinha de Silicone">
+            <h3>Cabo USB da Apple</h3>
+            <p>Carregue seu celular com rapidez.</p>
+            <div class="price">R$ 00,00</div>
+            <div class="rating">★★★★★</div>
+           
+            <button onclick="sendWhatsAppMessage('Capinha de Silicone')">Comprar via WhatsApp</button>
+        </div>
+        <div class="product-card">
+            <img src="imagem/p6.jpeg" alt="Capinha de Silicone">
+            <h3>Pulseira para relógio</h3>
+            <p>Bonito e com boa resistencia.</p>
+            <div class="price">R$ 00,00</div>
+            <div class="rating">★★★★★</div>
+           
+            <button onclick="sendWhatsAppMessage('Capinha de Silicone')">Comprar via WhatsApp</button>
+        </div>
+
+        <div class="product-card">
+            <img src="imagem/p1.jpeg" alt="Capinha de Silicone">
+            <h3>Capinha de Silicone</h3>
+            <p>Proteção leve e resistente para o seu celular.</p>
+            <div class="price">R$ 00,00</div>
+            <div class="rating">★★★★★</div>
+           
+            <button onclick="sendWhatsAppMessage('Capinha de Silicone')">Comprar via WhatsApp</button>
+        </div>
+
+
+        <div class="product-card">
+            <img src="imagem/p1.jpeg" alt="Capinha de Silicone">
+            <h3>Capinha de Silicone</h3>
+            <p>Proteção leve e resistente para o seu celular.</p>
+            <div class="price">R$ 00,00</div>
+            <div class="rating">★★★★★</div>
+           
+            <button onclick="sendWhatsAppMessage('Capinha de Silicone')">Comprar via WhatsApp</button>
+        </div>
+
+
+        <div class="product-card">
+            <img src="imagem/p1.jpeg" alt="Capinha de Silicone">
+            <h3>Capinha de Silicone</h3>
+            <p>Proteção leve e resistente para o seu celular.</p>
+            <div class="price">R$ 00,00</div>
+            <div class="rating">★★★★★</div>
+           
+            <button onclick="sendWhatsAppMessage('Capinha de Silicone')">Comprar via WhatsApp</button>
+        </div>
+
+        <div class="product-card">
+            <img src="imagem/p1.jpeg" alt="Capinha de Silicone">
+            <h3>Capinha de Silicone</h3>
+            <p>Proteção leve e resistente para o seu celular.</p>
+            <div class="price">R$ 00,00</div>
+            <div class="rating">★★★★★</div>
+           
+            <button onclick="sendWhatsAppMessage('Capinha de Silicone')">Comprar via WhatsApp</button>
+        </div>
+        <div class="product-card">
+            <img src="imagem/p1.jpeg" alt="Capinha de Silicone">
+            <h3>Capinha de Silicone</h3>
+            <p>Proteção leve e resistente para o seu celular.</p>
+            <div class="price">R$ 00,00</div>
+            <div class="rating">★★★★★</div>
+           
+            <button onclick="sendWhatsAppMessage('Capinha de Silicone')">Comprar via WhatsApp</button>
+        </div>
+        <div class="product-card">
+            <img src="imagem/p1.jpeg" alt="Capinha de Silicone">
+            <h3>Capinha de Silicone</h3>
+            <p>Proteção leve e resistente para o seu celular.</p>
+            <div class="price">R$ 00,00</div>
+            <div class="rating">★★★★★</div>
+           
+            <button onclick="sendWhatsAppMessage('Capinha de Silicone')">Comprar via WhatsApp</button>
+        </div>
+        <div class="product-card">
+            <img src="imagem/p1.jpeg" alt="Capinha de Silicone">
+            <h3>Capinha de Silicone</h3>
+            <p>Proteção leve e resistente para o seu celular.</p>
+            <div class="price">R$ 00,00</div>
+            <div class="rating">★★★★★</div>
+           
+            <button onclick="sendWhatsAppMessage('Capinha de Silicone')">Comprar via WhatsApp</button>
+        </div>
+        <div class="product-card">
+            <img src="imagem/p1.jpeg" alt="Capinha de Silicone">
+            <h3>Capinha de Silicone</h3>
+            <p>Proteção leve e resistente para o seu celular.</p>
+            <div class="price">R$ 00,00</div>
+            <div class="rating">★★★★★</div>
+           
+            <button onclick="sendWhatsAppMessage('Capinha de Silicone')">Comprar via WhatsApp</button>
+        </div>
+        <div class="product-card">
+            <img src="imagem/p1.jpeg" alt="Capinha de Silicone">
+            <h3>Capinha de Silicone</h3>
+            <p>Proteção leve e resistente para o seu celular.</p>
+            <div class="price">R$ 00,00</div>
+            <div class="rating">★★★★★</div>
+           
+            <button onclick="sendWhatsAppMessage('Capinha de Silicone')">Comprar via WhatsApp</button>
+        </div>
+        <div class="product-card">
+            <img src="imagem/p1.jpeg" alt="Capinha de Silicone">
+            <h3>Capinha de Silicone</h3>
+            <p>Proteção leve e resistente para o seu celular.</p>
+            <div class="price">R$ 00,00</div>
+            <div class="rating">★★★★★</div>
+           
+            <button onclick="sendWhatsAppMessage('Capinha de Silicone')">Comprar via WhatsApp</button>
+        </div>
+        <div class="product-card">
+            <img src="imagem/p1.jpeg" alt="Capinha de Silicone">
+            <h3>Capinha de Silicone</h3>
+            <p>Proteção leve e resistente para o seu celular.</p>
+            <div class="price">R$ 00,00</div>
+            <div class="rating">★★★★★</div>
+           
+            <button onclick="sendWhatsAppMessage('Capinha de Silicone')">Comprar via WhatsApp</button>
+        </div>
+        <div class="product-card">
+            <img src="imagem/p1.jpeg" alt="Capinha de Silicone">
+            <h3>Capinha de Silicone</h3>
+            <p>Proteção leve e resistente para o seu celular.</p>
+            <div class="price">R$ 00,00</div>
+            <div class="rating">★★★★★</div>
+           
+            <button onclick="sendWhatsAppMessage('Capinha de Silicone')">Comprar via WhatsApp</button>
+        </div>
+
+        <!-- Adicione mais produtos aqui -->
+
+    </div>
+   
+</center> 
     <footer>
-        <p>&copy; 2024 Lako Oficial
+        <p>&copy; 2024 Lopes Eletrônicos. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        function sendWhatsAppMessage(product) {
+            const phoneNumber = "+5561998700849"; // Substitua pelo número de WhatsApp do vendedor
+            const message = `Olá, gostaria de comprar o seguinte produto: ${product}`;
+            const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, '_blank');
+        }
+    </script>
+
+</body>
+
+</html>
